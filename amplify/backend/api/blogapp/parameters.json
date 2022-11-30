@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "blogapp",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2022-03-18T16:31:25.757Z",
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authblogapp67979955",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
